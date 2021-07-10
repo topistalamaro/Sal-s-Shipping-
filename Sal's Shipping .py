@@ -9,7 +9,6 @@
 weight = 4.8
 
 #Ground Shipping
-
 if weight <= 2:
   ground_cost = weight * 1.50 + 20.00
 elif weight > 2 and weight <= 6:
